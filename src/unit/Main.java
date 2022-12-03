@@ -20,7 +20,7 @@ public class Main {
         bookList.showAll();
         System.out.println('\n');
 
-       /* System.out.println("sorting by name");
+       System.out.println("sorting by name");
         Comparator<Book> compare=new Book.BookComparatorName();
         bookList.sort(compare);
         bookList.showAll();
@@ -41,17 +41,6 @@ public class Main {
         bookList.sort(compar);
         bookList.showAll();
         System.out.println('\n');
-
-*/
-        System.out.println('\n');
-        System.out.println("shoes by aaaa:");
-        bookList.authorList("aaaa").stream().forEach(System.out::println);
-
-        System.out.println('\n');
-        System.out.println("grouped:");
-        System.out.println(bookList.group());
-        ObjectMapper objectMapper= new ObjectMapper();
-        objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
 
 
     }
