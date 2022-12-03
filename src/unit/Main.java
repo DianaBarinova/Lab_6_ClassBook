@@ -1,9 +1,5 @@
 package unit;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectWriter;
-import com.fasterxml.jackson.databind.SerializationFeature;
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
@@ -32,7 +28,7 @@ public class Main {
             System.out.println('\n');
         }
         else{
-            System.out.println("Net takoi obyvi "+name);
+            System.out.println("there is no book "+name);
             System.out.println('\n');
         }
 
